@@ -50,6 +50,20 @@ a:hover {
   margin-bottom: 56px;
 }
 
+.hero-portrait {
+  margin-bottom: 22px;
+}
+
+.hero-portrait img {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  border: 1px solid var(--line);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
 .hero-meta {
   font-size: 13px;
   letter-spacing: 0.04em;
